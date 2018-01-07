@@ -1,5 +1,10 @@
 function chirp(n){
-  // FIX ME
+  
+  // base case
+  if (n === 0) {
+    return "";
+  }
+  return "chirp " + chirp(--n);
 }
 
 $(document).ready(function(){

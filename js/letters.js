@@ -27,7 +27,7 @@ function countLetters(counter, text){
 
   let targetChar = newText.slice(0, 1);
 
-  if ([targetChar]) {
+  if (counter.hasOwnProperty(targetChar)) {
     counter[targetChar]++;
   }
 
